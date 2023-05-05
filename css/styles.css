@@ -169,6 +169,11 @@ main {
   font-size: 6rem;
   font-weight: bold;
 }
+.value {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-left: 6rem;
+}
 .btn {
   text-transform: uppercase;
   background: transparent;

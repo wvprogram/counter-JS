@@ -3,6 +3,7 @@ let count = 0;
 
 //  select value and buttons
 const value = document.querySelector("#value");
+const newValue = document.querySelector(".value");
 const btns = document.querySelectorAll(".btn");
 
 //  function to select all buttons and put them in an array using forEach
@@ -33,5 +34,6 @@ btns.forEach(function(btn) {
 
         //  display new counter value in html
         value.textContent = count;
+        newValue.textContent = count;
     })
 });
