@@ -32,6 +32,7 @@ btns.forEach(function(btn) {
             newValue.style.color = 'gray';
         } else {
             value.style.color = '#222';
+            newValue.style.color = '#222';
         }
 
         //  display new counter value in html
