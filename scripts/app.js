@@ -26,8 +26,10 @@ btns.forEach(function(btn) {
         //  change color of counter value
         if (count < 0) {
             value.style.color = 'red';
+            newValue.style.color = 'blue';
         } else if (count > 0) {
             value.style.color = 'green';
+            newValue.style.color = 'gray';
         } else {
             value.style.color = '#222';
         }
