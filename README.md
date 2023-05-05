@@ -1,1 +1,3 @@
-# counter-JS
+# Counter
+
+Counter made with vanilla JavaScript
